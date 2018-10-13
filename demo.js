@@ -81,6 +81,7 @@
     let _olMap = null;
     const _onChangeMode = (value) => {
         console.log('value:', value);
+        $log.empty();
 
         if (_sgc) {
             _sgc.free();
